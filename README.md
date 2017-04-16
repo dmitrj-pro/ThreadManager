@@ -102,4 +102,10 @@ mng.runingWithName([](){
 	//получаем результат
 
 	auto x=s.Result();
+
+Пример компиляции под Linux
+	
+	1) переходим в папку проекта
+
+	2)g++ -o run -std=c++11 -pthread main.cpp Sys.cpp ConsoleFunction.cpp ProcessManager/Manager.cpp
 		
